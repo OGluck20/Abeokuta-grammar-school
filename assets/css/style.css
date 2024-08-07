@@ -76,10 +76,12 @@ h6 {
   padding: 0;
 }
 
-#topbar .contact-info a {
+#topbar .contact-info p {
   line-height: 0;
   color: #f7dc6f;
   transition: 0.3s;
+  margin-top: -10px;
+  margin-left: 30px;
 }
 
 #topbar .contact-info a:hover {
@@ -529,6 +531,14 @@ h6 {
 @media (max-width: 992px) {
   #hero {
     height: 100vh;
+  }
+
+  #topbar .contact-info p {
+    display: none;
+  }
+
+  .services .icon-box{
+    width: 500px;
   }
 
   #hero .carousel-container {
