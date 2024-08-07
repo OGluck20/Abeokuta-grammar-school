@@ -1162,6 +1162,11 @@ section {
   box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
   padding: 30px 20px;
   background: #fff;
+  transition: transform 0.25s;
+}
+
+.team .member:hover{
+  transform: scale(1.1);
 }
 
 .team .member img {
@@ -1169,6 +1174,9 @@ section {
   height: 35%;
   border-radius: 50%;
   margin: 0 0 30px 0;
+  background-position: center;
+  background-size: contain;
+  border: 4px solid #ffbb2c;
 }
 
 .team .member h4 {
